@@ -39,7 +39,7 @@ Bus stations/
 ### Windows
 ```powershell
 # Compile
-g++ -std=c++17 -Wall -Wextra -Iinclude src/main.cpp -o bus.exe
+g++ -std=c++17 main.cpp -o bus.exe
 
 # Run the executable
 .\bus.exe
@@ -48,7 +48,7 @@ g++ -std=c++17 -Wall -Wextra -Iinclude src/main.cpp -o bus.exe
 ### Linux/macOS/WSL
 ```bash
 # Compile
-g++ -std=c++17 -Wall -Wextra -Iinclude src/main.cpp -o bus
+g++ -std=c++17 main.cpp -o bus
 
 # Run the executable
 ./bus
