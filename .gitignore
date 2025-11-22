@@ -1,0 +1,24 @@
+# Compiled executables
+*.exe
+*.out
+a.out
+bus
+
+# Build directories
+build/
+bin/
+out/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
