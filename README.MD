@@ -36,9 +36,19 @@ Bus stations/
 
 ## How to Build
 
+### Windows
+```powershell
+# Compile
+g++ -std=c++17 -Wall -Wextra -Iinclude src/main.cpp -o bus.exe
+
+# Run the executable
+.\bus.exe
+```
+
+### Linux/macOS/WSL
 ```bash
-# Compile the project
-g++ main.cpp -o bus
+# Compile
+g++ -std=c++17 -Wall -Wextra -Iinclude src/main.cpp -o bus
 
 # Run the executable
 ./bus
